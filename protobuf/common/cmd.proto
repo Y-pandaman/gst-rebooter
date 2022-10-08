@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto_messages;
+
+message CMD{
+    bool CAMERA0_ON = 1;
+    bool CAMERA1_ON = 2;
+    bool CAMERA2_ON = 3;
+    bool CAMERA3_ON = 4;
+    bool CAMERA4_ON = 5;
+    bool CAMERA5_ON = 6;
+    bool CAMERA6_ON = 7;
+    bool CAMERA7_ON = 8;
+}
